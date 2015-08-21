@@ -7,4 +7,4 @@ Expected Result From Candidates:
 
 1. Every candidate must attempt all the programs.
 2. Programs should be runnable.
-3. Programs should have their corresponding test class with all the possible positive and negative testcases.
+3. Programs should have their corresponding test class with all the possible positive and negative testcases as well.
