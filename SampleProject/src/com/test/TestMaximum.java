@@ -34,6 +34,7 @@ public class TestMaximum {
 	
 	@Test
 	public void testPositiveNegativeNumbers(){
+		// test comment
 		Maximum max = new Maximum();
 		int[] arr = {0,-1,2,-3,4,-5};
 		int pn = max.findMaximumNumber(arr);
