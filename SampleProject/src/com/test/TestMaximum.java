@@ -31,5 +31,14 @@ public class TestMaximum {
 		int d = max.findMaximumNumber(arr);
 		Assert.assertEquals(d, 56);
 	}
+	
+	@Test
+	public void testPositiveNegativeNumbers(){
+		Maximum max = new Maximum();
+		int[] arr = {0,-1,2,-3,4,-5};
+		int pn = max.findMaximumNumber(arr);
+		Assert.assertEquals(pn, 4);
+	}
+	
 
 }
