@@ -4,6 +4,8 @@ import org.testng.annotations.Test;
 
 import com.main.Smallest;
 
+
+
 /**
  * This class contains all the test cases for testing Smallest class  
  * @author WhiteboxQa
@@ -16,7 +18,7 @@ public class TestSmallest {
 	{
 		int[] arr = {2,3,45,34,13};
 		int actual = Smallest.findSmallest(arr);
-		Assert.assertEquals(actual,2);
+		Assert.assertEquals(actual,4);
 	}
 	
 	@Test
@@ -34,6 +36,7 @@ public class TestSmallest {
 		int actual = Smallest.findSmallest(arr);
 		Assert.assertEquals(actual,2);
 	}
+	
 	
 	@Test
 	public void testPosNegNumbers()

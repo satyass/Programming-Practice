@@ -7,12 +7,12 @@ import com.main.Maximum;
 
 public class TestMaximum {
 	
-	@Test
+	;	@Test
 	public void testPositiveNumbers(){		
 		Maximum max = new Maximum();
 		int[] arr = {5,10,34,12,0,56};
 		int m = max.findMaximumNumber(arr);
-		Assert.assertEquals(m, 56);				
+		Assert.assertEquals(m, 56);		
 	}
 	
 	@Test
