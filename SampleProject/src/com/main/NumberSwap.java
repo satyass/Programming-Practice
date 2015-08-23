@@ -1,7 +1,7 @@
 package com.main;
 
 public class NumberSwap {
-	public void swapNumberUsingTemp(int x, int y){
+	public String  swapNumberUsingTemp(int x, int y){
 		System.out.println("before Swap");
 		System.out.println("x="+x);
 		System.out.println("y="+y);
@@ -13,10 +13,10 @@ public class NumberSwap {
 		System.out.println("x="+x);
 		System.out.println("y="+y);
 		
-		
+		return x+","+y;
 		
 	}
-	public void swapNumberNotUsingTemp(int x, int y){
+	public String swapNumberNotUsingTemp(int x, int y){
 		System.out.println("before Swap");
 		System.out.println("x="+x);
 		System.out.println("y="+y);
@@ -27,6 +27,7 @@ public class NumberSwap {
 		System.out.println("After Swap");
 		System.out.println("x="+x);
 		System.out.println("y="+y);
+		return x+","+y;
 	}
 		
 		
