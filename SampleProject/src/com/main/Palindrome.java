@@ -6,10 +6,10 @@ public class Palindrome {
 		  strbfr.reverse();
 		  String reversedString = strbfr.toString();
 		  if(reversedString.equalsIgnoreCase(OrigStr)){
-		   System.out.println(OrigStr+"is a Palindrome");
+		   System.out.println(OrigStr+" is a Palindrome");
 		   return true;
 		  }else{
-		   System.out.println(OrigStr+ "is not a palindrome");
+		   System.out.println(OrigStr+ " is not a palindrome");
 		   return false; 
 		  }
 		
