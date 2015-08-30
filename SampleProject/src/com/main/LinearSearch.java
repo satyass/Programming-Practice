@@ -5,9 +5,6 @@ public class LinearSearch {
 		for (int i=0; i< inputValues.length; i++){
 			if (inputValues[i]==key){
 				System.out.println("Matched the key at index :"+i);
-				
-			
-				
 			}
 		}
 		return key;
