@@ -8,7 +8,7 @@ public class PrintStars {
 			for(int k = 0; k <= i; k++ ){
 				System.out.print("*");
 			}
-			System.out.print("\n");
+			System.out.println("");
 		}
 		
 	}
