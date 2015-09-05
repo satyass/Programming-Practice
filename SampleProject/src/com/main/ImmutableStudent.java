@@ -1,4 +1,4 @@
-package com.test;
+package com.main;
 
 public final class ImmutableStudent {
 	
