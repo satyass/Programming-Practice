@@ -10,17 +10,20 @@ public class FileCopy {
 	
 	public boolean copyFile(String inputFile, String outputFile){
 		
+		FileInputStream in = null;
+		FileOutputStream out = null;
+		
 		try {
-			FileInputStream in = new FileInputStream (inputFile);
-			FileOutputStream out = new FileOutputStream(outputFile);
-			
+		
+			in = new FileInputStream (inputFile);
+			out = new FileOutputStream(outputFile);
 			int c = in.read();
 			while ( c != -1){
 				out.write(c);
 				c = in.read();
 				
 			}
-			
+						
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -29,6 +32,15 @@ public class FileCopy {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 			return false;
+		}finally{
+			try {
+				in.close();
+				out.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
 		}
 		return true;
 	}
