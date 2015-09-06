@@ -15,8 +15,7 @@ public class SortArray {
 		return list;
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {	
 		
 		int[] array = { 3, 9, 0, 2, 7};
 		List output = sortArray(array);
